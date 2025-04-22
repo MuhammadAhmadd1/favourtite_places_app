@@ -21,6 +21,7 @@ class PlacesScreen extends ConsumerWidget {
         title: Text('Places'),
         actions: [
           IconButton(
+            splashColor: Colors.transparent,
             onPressed: () {
               _addPlaces(context);
             },
